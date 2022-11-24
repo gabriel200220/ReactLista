@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
-export const Styled = styled.div`
-background-color
+export const estilo = styled.div`
 
+
+	}
 `

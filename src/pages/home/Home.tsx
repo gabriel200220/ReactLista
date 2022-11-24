@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { estilo } from './TableStyle'
 import {
 	Button,
 	Container,
@@ -102,10 +103,12 @@ const App = () => {
 
 	return (
 		<ThemeProvider theme={darkTheme}>
-			<div className='container'>
+			<div style={{}} className='Container'>
 				<Typography variant='h3' component='div' sx={{ flexGrow: 1 }}>
 					Bem vindo a lista de recados
 				</Typography>
+				<h1 style={estilo.title}>st</h1>
+
 				<div className='card'>
 					<Button
 						variant='contained'
