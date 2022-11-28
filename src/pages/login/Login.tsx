@@ -53,7 +53,7 @@ function Login() {
 
 		if (!foundUser) {
 			alert('E-mail e/ou senha incorretos.')
-
+			navigate('/Cadastro')
 			return false
 		}
 		return true
